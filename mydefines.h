@@ -2,7 +2,6 @@
 #include <stdint.h>
 #include <stdlib.h>
 
-#define internal static
 #define local_persistent static
 typedef uint64_t u64; 
 typedef uint32_t u32; 
