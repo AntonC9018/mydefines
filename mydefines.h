@@ -14,8 +14,3 @@ typedef int16_t s16;
 typedef int8_t s8; 
 
 #define report_error(string, ...) fprintf((stderr), (string), ## __VA_ARGS__), exit(-1)
-
-inline void str_free(const char* string)
-{
-    free((void*)string);
-}
