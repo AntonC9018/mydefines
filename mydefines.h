@@ -1,6 +1,7 @@
 #pragma once
 #include <stdint.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 #define local_persistent static
 typedef uint64_t u64; 
