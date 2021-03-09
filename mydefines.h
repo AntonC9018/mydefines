@@ -14,3 +14,4 @@ typedef int16_t s16;
 typedef int8_t s8; 
 
 #define report_error(string, ...) fprintf((stderr), (string), ## __VA_ARGS__), exit(-1)
+#define countof(arr) sizeof((arr)) / sizeof((arr)[0])
